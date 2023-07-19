@@ -1,19 +1,3 @@
-spring:
-  redis:
-    pool:
-      min-idle: 0
-      max-idle: 8
-      max-active: 8
-    port: 8080
-    host: localhost
-
-
-
-
-
-
-
-
 # host : 레디스 서버 호스트
 # password : 레디스 서버 로그인 패스워드
 # max-actice : pool 에 할당될 수 있는 커넥션 최대수(음수로 사용시 무제한)
